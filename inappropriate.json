@@ -7018,7 +7018,6 @@ end
 
 function useCommand.unfuck()
 	bang:Stop()
-	bangAnim:Destroy()
 	Bang = false
 	opx("-","Rape/fuck disabled")
 end
