@@ -7017,7 +7017,6 @@ function useCommand.fuck()
 end
 
 function useCommand.unfuck()
-	bang:Stop()
 	Bang = false
 	opx("-","Rape/fuck disabled")
 end
