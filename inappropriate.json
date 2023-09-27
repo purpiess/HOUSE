@@ -1,6 +1,6 @@
 wait(0.3)
 -- Objects
--- CREDIT TO xFunnieuss / Timeless for partial (short) names.
+-- CREDIT TO xFunnieuss / Timeless for partial (short) names.a
 
 OPFinality = Instance.new("ScreenGui")
 MainFrame = Instance.new("Frame")
