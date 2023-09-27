@@ -6994,10 +6994,10 @@ function useCommand.fuck()
 		if target then
 			flwnum = -1
 			bangAnim = Instance.new("Animation")
-			bangAnim.AnimationId = "rbxassetid://148840371"
+			bangAnim.AnimationId = ""
 			bang = cmdlp.Character.Humanoid:LoadAnimation(bangAnim)
 			bang:Play(.1, 1, 1)
-			bang:AdjustSpeed(100)
+			bang:AdjustSpeed(0)
 			if target.Character and target.Character:FindFirstChild('Humanoid') then
 				if Bang == true then
 					Follow = false
