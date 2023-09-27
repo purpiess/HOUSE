@@ -6994,7 +6994,7 @@ function useCommand.fuck()
 		if target then
 			flwnum = -1
 			bangAnim = Instance.new("Animation")
-			bangAnim.AnimationId = ""
+			bangAnim.AnimationId = "rbxassetid://0""
 			bang = cmdlp.Character.Humanoid:LoadAnimation(bangAnim)
 			bang:Play(.1, 1, 1)
 			bang:AdjustSpeed(0)
